@@ -9,7 +9,7 @@ from langchain.vectorstores import Chroma
 from langchain.embeddings import LlamaCppEmbeddings
 from langchain.docstore.document import Document
 from constants import CHROMA_SETTINGS
-
+from xlsx_loader import XLSXLoader
 
 load_dotenv()
 
