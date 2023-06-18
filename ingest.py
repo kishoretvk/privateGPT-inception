@@ -77,6 +77,7 @@ LOADER_MAPPING = {
     ".ppt": (UnstructuredPowerPointLoader, {}),
     ".pptx": (UnstructuredPowerPointLoader, {}),
     ".txt": (TextLoader, {"encoding": "utf8"}),
+    ".xlsx" : (XLSXLoader, {}),
     # Add more mappings for other file extensions and loaders as needed
 }
 
