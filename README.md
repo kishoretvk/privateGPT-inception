@@ -21,6 +21,7 @@ MODEL_TYPE: supports LlamaCpp or GPT4All
 PERSIST_DIRECTORY: is the folder you want your vectorstore in
 MODEL_PATH: Path to your GPT4All or LlamaCpp supported LLM
 MODEL_N_CTX: Maximum token limit for the LLM model
+N_GPU_LAYERS: NUMBER OF GPU LAYERS
 EMBEDDINGS_MODEL_NAME: SentenceTransformers embeddings model name (see https://www.sbert.net/docs/pretrained_models.html)
 TARGET_SOURCE_CHUNKS: The amount of chunks (sources) that will be used to answer a question
 ```
@@ -49,6 +50,7 @@ The supported extensions are:
    - `.pdf`: Portable Document Format (PDF),
    - `.pptx` : PowerPoint Document,
    - `.ppt` : PowerPoint Document,
+   - `.xlsx`: excel Document,
    - `.txt`: Text file (UTF-8),
 
 Run the following command to ingest all the data.
